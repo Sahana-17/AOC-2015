@@ -5,8 +5,9 @@
 #A present with dimensions 2x3x4 requires 2*6 + 2*12 + 2*8 = 52 square feet of wrapping paper plus 6 square feet of slack, for a total of 58 square feet.
 
 #All numbers in the elves' list are in feet. How many total square feet of wrapping paper should they order?
+import os
+file = open(os.path.join(os.path.dirname('__file__'),"day2.in"))
 
-file = open("/users/sahana/AOC-2015/Day2/day2.in", "r")
 count = 0
 wrapping = 0
 total =0
